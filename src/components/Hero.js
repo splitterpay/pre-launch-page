@@ -3,7 +3,7 @@ import TextTransition, { presets } from "react-text-transition";
 import React from "react";
 import { ArrowCircleRightIcon, MailIcon } from "@heroicons/react/outline";
 
-const TEXTS = ["buy/rent homes", "invest in real estates"];
+const TEXTS = ["in 3 installments", "over 3 months", "0% interest"];
 
 export default function Hero() {
   const [index, setIndex] = React.useState(0);
@@ -39,7 +39,7 @@ export default function Hero() {
 
           {/* header text */}
           <p className="mt-1 text-5xl p-4 leading-snug font-light tracking-tight text-center text-gray-900">
-            <span>We're flipping the way people </span>
+            <span> Shop now &amp; Pay later </span>
 
             <span className="text-blue-500">
               <TextTransition
